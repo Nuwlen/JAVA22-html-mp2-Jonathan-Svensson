@@ -5,97 +5,160 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Startsida</title>
+    <title>Restaurang Istanbul</title>
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-7">
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark py-3 sticky-top">
         <div class="container">
-            <span class="text-danger">Jonathan Svensson</span>
+            <span class="navbar-brand mb-0 h1">Restaurang Istanbul</span>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link">Startsida</a>
+                        <a href="#" class="nav-link">Hem</a>
                     </li>
                     <li class="nav-item">
-                        <a href="html/informationssida.html" class="nav-link">Info</a>
+                        <a href="#" class="nav-link">Meny</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Projekt
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="html/p1.html">Projekt 1</a></li>
-                            <li><a class="dropdown-item" href="html/p2.html">Projekt 2</a></li>
-                            <li><a class="dropdown-item" href="html/p3.html">Projekt 3</a></li>
-                            <li><a class="dropdown-item" href="html/p4.html">Projekt 4</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Bokning</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    <main class="bildgalleri">
-        <div class="section-1" id="bild-1">
-            <div>
-                <h1>Projekt 1</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa atque et possimus commodi dolore
-                    quibusdam consequuntur placeat deleniti minima fugiat.</p>
-                <a href="html/p1.html">Gå till Projekt</a>
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-smart">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <h1> <span class="text-danger">Hjärtligt </span>Välkommna</h1>
+                <p class="lead my-4">Välkomna till oss på restaurang Istanbul, med vår stora uteservering under
+                    sommarhalvåret lär ni inte missa oss! Vi serverar lunch, Á la carte och även våra omtyckta pizzor.
+                    Vi har även en välfylld bar med massvis av goda cocktails!</p>
+                <button class="btn btn-primary btn-lg">Vår Menu</button>
             </div>
         </div>
+    </section>
 
-        <div class="section-1" id="bild-2">
-            <div>
-                <h1>Projekt 2</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptatem quos doloremque maiores sunt
-                    at unde mollitia quibusdam assumenda consectetur.</p>
-                <a href="html/p2.html">Gå till Projekt</a>
-            </div>
-        </div>
+    <div class="menu">
 
-        <div class="section-1" id="bild-3">
-            <div>
-                <h1>Projekt 3</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti itaque dolorem ex dignissimos amet
-                    fugit, nemo perspiciatis quis sed ullam!</p>
-                <a href="html/p3.html">Gå till Projekt</a>
-            </div>
-        </div>
+        <h1 class="huvudratter">Huvudrätter</h3>
 
-        <div class="section-1" id="bild-4">
-            <div>
-                <h1>Projekt 4</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis accusamus praesentium dicta
-                    ratione corporis unde expedita aperiam excepturi, perferendis corrupti?</p>
-                <a href="html/p4.html">Gå till Projekt</a>
+            <div class="section-1">
+                <div class="kott">
+                    <h2>Kött</h2>
+                    <h3>Schnitzel - 169:-</h3>
+                    <p>Serveras med pommes frites, skysås och gröna ärtor</p>
+                    <h3>Texas ryggbiff - 199:-</h3>
+                    <p>Grillad ryggbiff serveras med bearneisesås, husets BBQsås, pommes frites och majskolv</p>
+                    <h3>BBQ Chicken - 179:-</h3>
+                    <p>Mörbankad kycklingfilé grillas och glaseras med BBQ glace serverat med cole slaw, BBQsås och
+                        pommes frites</p>
+                    <h3>Grillad Fläskfilé - 179:-</h3>
+                    <p>Fläskfilé serveras med stekt potatis, grönpepparsås och säsongens primörer</p>
+                    <h3>Grillad oxfilé - 219:-</h3>
+                    <p>Oxfilé serveras med potatisbakelse, rödvinssky och grillad sparris</p>
+                </div>
+
+                <div class="plankstek">
+                    <h2>Plankstek</h2>
+                    <p id="p-planka">Alla våra plankor serveras med pommes duchesse, wokade grönsaker, baconlindad
+                        haricot verts (ej vegetarisk), grillad tomat och bearneisesås</p>
+                    <h3>Oxfilé - 219:-</h3>
+                    <h3>Ryggbiff - 199:-</h3>
+                    <h3>Fläskfilé - 189:-</h3>
+                    <h3>Laxfilé - 189:-</h3>
+                    <h3>Kycklingfilé - 179:-</h3>
+                    <h3>Vegetarisk - 139:-</h3>
+                </div>
             </div>
-        </div>
-    </main>
+
+            <div class="section-2">
+                <div>
+                    <h2>Pizza</h2>
+                    <h3>1. Margarita - 85:-</h3>
+                    <p>Tomat, ost</p>
+                    <h3>2. Vesuvio - 85:-</h3>
+                    <p>Skinka</p>
+                    <h3>3. Calzone - 85:-</h3>
+                    <p>Skinka (inbakad)</p>
+                    <h3>4. Bolognese - 85:-</h3>
+                    <p>Köttfärssås</p>
+                </div>
+                <div>
+                    <h3>5. Pescatore - 85:-</h3>
+                    <p>Tonfisk, lök</p>
+                    <h3>6. Funghi - 85:-</h3>
+                    <p>Banan, ananas, curry</p>
+                    <h3>7. Boscalio - 85:-</h3>
+                    <p>Salami, lök</p>
+                    <h3>8. Africana - 85:-</h3>
+                    <p>Skina, banan, ananas</p>
+                </div>
+                <div>
+                    <h3>9. Capriccosa - 85:-</h3>
+                    <p>Skinka, champinjoner</p>
+                    <h3>10. Hawaii - 85:-</h3>
+                    <p>Skinka, ananas</p>
+                    <h3>11. Italia - 85:-</h3>
+                    <p>Lök, champinjoner, tonfisk</p>
+                    <h3>12. Napolitana - 85:-</h3>
+                    <p>Bacon, lök, ägg</p>
+                </div>
+            </div>
+
+            <div class="section-3">
+                <div class="fisk">
+                    <h2>Fisk</h2>
+                    <h3>Rödspättafilé - 129:-</h3>
+                    <p>Serveras med pommes frites, grönsaker och remouladsås</p>
+                    <h3>Laxfilé - 189:-</h3>
+                    <p>Serveras med smörstuvad potatis, hollandaisesås, wokade grönsaker</p>
+                </div>
+
+                <div class="barnmeny">
+                    <h2>Barnmeny</h2>
+                    <h3>Köttbullar - 79:-</h3>
+                    <p>Med potatismos och lingon</p>
+                    <h3>Chicken nuggets - 79:-</h3>
+                    <p>Med pommes frites, grönsaker och mild sås</p>
+                </div>
+            </div>
+    </div>
 
     <footer>
-        <div class="kontakt">
-            <a href="mailto:jonathan.svensson@gritacademy.se">jonathan.svensson@gritacademy.se</a>
+        <div>
+            <h3>Hitta oss</h3>
+            <p>Restaurang Istanbul</p>
+            <a href="https://g.page/restaurangistanbultrelleborg?share " target="_blank">
+                <p>Algatan 30, 23142 Trelleborg</p>
+            </a>
         </div>
-        <div class="links">
-            <a href="" class="fa fa-facebook"></a>
-            <a href="" class="fa fa-twitter"></a>
-            <a href="" class="fa fa-instagram"></a>
+        <div>
+            <h3>Kontakt</h3>
+            <p>Tel: 0410-444 44</p>
+            <p>E mail: info@restaurangistanbul.com</p>
         </div>
+        <div>
+            <h3>Öppettider</h3>
+            <ul>
+                <li>Måndag-Torsdag: 11:00-00:00</li>
+                <li>Fredag-Lördag: 11:00-00:00</li>
+                <li>Söndag: 12:00-00:00</li>
+            </ul>
     </footer>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
